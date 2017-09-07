@@ -384,6 +384,28 @@ ledger.bitcoin.Networks =
     dust: 10000
     handleFeePerByte: no
 
+  crown:
+    name: 'crown'
+    display_name: 'crown'
+    plural: 'crown'
+    scheme: 'crown:'
+    bolosAppName: 'crown'
+    ticker: 'crown'
+    tickerKey:
+      from: 'fromCROWN'
+      to: 'toCROWN'
+    bip44_coin_type: '5'
+    handleSegwit: no
+    isSegwitSupported: no
+    version:
+      regular: 0
+      P2SH: 28
+      XPUB: 0x0488B21E
+    bitcoinjs: bitcoin.networks.crown
+    dust: 10000
+    handleFeePerByte: no
+
+
   zcash:
     name: 'zcash'
     display_name: 'zcash'

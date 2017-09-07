@@ -481,6 +481,21 @@ ledger.preferences.dash =
         address: 'https://explorer.dash.org/tx/%s'
     discoveryGap: 20
 
+ledger.preferences.crown =
+  Display:
+    units:
+      bitcoin:
+        symbol: 'CROWN'
+        unit: 8
+
+  # Coin preferences
+  Coin:
+    explorers:
+      cryptoID:
+        name: 'CryptoID'
+        address: 'https://chainz.cryptoid.info/crw/tx.dws?%s.html'
+    discoveryGap: 20
+
 ledger.preferences.clubcoin =
   Display:
     units:
